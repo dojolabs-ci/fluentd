@@ -18,5 +18,6 @@ ENV NETFLOW_DEFINITIONS=""
 ENV NETFLOW_VERSIONS="[5, 9]"
 
 ENV LOG_FILE_PATH=""
+ENV POS_FILE_PATH="/tmp/fluentd.posfile"
 
 COPY config/*.conf /fluentd/etc/

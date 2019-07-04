@@ -1,6 +1,6 @@
 FROM fluent/fluentd
 
-RUN gem install fluent-plugin-mqtt-io fluent-plugin-elasticsearch fluent-plugin-netflow
+RUN gem install fluent-plugin-mqtt-io fluent-plugin-elasticsearch fluent-plugin-netflow fluent-plugin-mutate_filter
 
 #MQTT
 ENV MQTT_HOST="vernemq"
